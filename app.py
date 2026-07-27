@@ -8,7 +8,7 @@ import time
 # ================= PAGE CONFIG =================
 
 st.set_page_config(
-    page_title="🌾 CROP RECOMMENDATION",
+    page_title="🌾 CROP AND WEED DETECTION",
     page_icon="🌾",
     layout="wide"
 )
@@ -194,9 +194,9 @@ model, encoder = load_assets()
 
 with st.sidebar:
 
-    st.markdown("## 🌾 CROP RECOMMENDATION")
+    st.markdown("## 🌾 CROP AND WEED DETECTION")
 
-    st.success("CROP RECOMMENDATION")
+    st.success("CROP AND WEED DETECTION")
 
 
     st.markdown("---")
